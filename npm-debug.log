@@ -1,0 +1,156 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'install', '-g', 'livedown' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.36
+4 verbose cache add [ 'livedown', null ]
+5 verbose cache add name=undefined spec="livedown" args=["livedown",null]
+6 verbose parsed url { protocol: null,
+6 verbose parsed url   slashes: null,
+6 verbose parsed url   auth: null,
+6 verbose parsed url   host: null,
+6 verbose parsed url   port: null,
+6 verbose parsed url   hostname: null,
+6 verbose parsed url   hash: null,
+6 verbose parsed url   search: null,
+6 verbose parsed url   query: null,
+6 verbose parsed url   pathname: 'livedown',
+6 verbose parsed url   path: 'livedown',
+6 verbose parsed url   href: 'livedown' }
+7 silly lockFile 9d649552-livedown livedown
+8 verbose lock livedown /Users/dain/.npm/9d649552-livedown.lock
+9 silly lockFile 9d649552-livedown livedown
+10 silly lockFile 9d649552-livedown livedown
+11 verbose addNamed [ 'livedown', '' ]
+12 verbose addNamed [ null, '*' ]
+13 silly lockFile 1bf2ba60-livedown livedown@
+14 verbose lock livedown@ /Users/dain/.npm/1bf2ba60-livedown.lock
+15 silly addNameRange { name: 'livedown', range: '*', hasData: false }
+16 verbose request where is /livedown
+17 verbose request registry https://registry.npmjs.org/
+18 verbose request id 2bc2ed43cd14bc49
+19 verbose url raw /livedown
+20 verbose url resolving [ 'https://registry.npmjs.org/', './livedown' ]
+21 verbose url resolved https://registry.npmjs.org/livedown
+22 verbose request where is https://registry.npmjs.org/livedown
+23 info trying registry request attempt 1 at 15:28:33
+24 http GET https://registry.npmjs.org/livedown
+25 http 200 https://registry.npmjs.org/livedown
+26 silly registry.get cb [ 200,
+26 silly registry.get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+26 silly registry.get     etag: '"4S68GNT6GF3SIRMLLTFHL2P39"',
+26 silly registry.get     'content-type': 'application/json',
+26 silly registry.get     'cache-control': 'max-age=60',
+26 silly registry.get     'content-length': '13308',
+26 silly registry.get     'accept-ranges': 'bytes',
+26 silly registry.get     date: 'Mon, 25 May 2015 22:28:31 GMT',
+26 silly registry.get     via: '1.1 varnish',
+26 silly registry.get     age: '0',
+26 silly registry.get     connection: 'keep-alive',
+26 silly registry.get     'x-served-by': 'cache-sjc3133-SJC',
+26 silly registry.get     'x-cache': 'MISS',
+26 silly registry.get     'x-cache-hits': '0',
+26 silly registry.get     'x-timer': 'S1432592911.439014,VS0,VE360',
+26 silly registry.get     vary: 'Accept' } ]
+27 silly addNameRange number 2 { name: 'livedown', range: '*', hasData: true }
+28 silly addNameRange versions [ 'livedown',
+28 silly addNameRange   [ '0.0.0',
+28 silly addNameRange     '1.0.0',
+28 silly addNameRange     '1.0.1',
+28 silly addNameRange     '1.0.2',
+28 silly addNameRange     '1.0.3',
+28 silly addNameRange     '1.0.4',
+28 silly addNameRange     '1.0.5',
+28 silly addNameRange     '1.0.6',
+28 silly addNameRange     '1.0.7',
+28 silly addNameRange     '1.0.8' ] ]
+29 verbose addNamed [ 'livedown', '1.0.8' ]
+30 verbose addNamed [ '1.0.8', '1.0.8' ]
+31 silly lockFile d1f17d35-livedown-1-0-8 livedown@1.0.8
+32 verbose lock livedown@1.0.8 /Users/dain/.npm/d1f17d35-livedown-1-0-8.lock
+33 silly lockFile 55c10499--org-livedown-livedown-1-0-8-tgz https://registry.npmjs.org/livedown/-/livedown-1.0.8.tgz
+34 verbose lock https://registry.npmjs.org/livedown/-/livedown-1.0.8.tgz /Users/dain/.npm/55c10499--org-livedown-livedown-1-0-8-tgz.lock
+35 verbose addRemoteTarball [ 'https://registry.npmjs.org/livedown/-/livedown-1.0.8.tgz',
+35 verbose addRemoteTarball   '811c08413db1ecaf38d6ac1767f141fe1af37739' ]
+36 info retry fetch attempt 1 at 15:28:34
+37 verbose fetch to= /var/folders/0s/k_9yjt0s54d8wq5mnshgkdch0000gn/T/npm-43827-JL85VHxx/registry.npmjs.org/livedown/-/livedown-1.0.8.tgz
+38 http GET https://registry.npmjs.org/livedown/-/livedown-1.0.8.tgz
+39 http 200 https://registry.npmjs.org/livedown/-/livedown-1.0.8.tgz
+40 silly lockFile 55c10499--org-livedown-livedown-1-0-8-tgz https://registry.npmjs.org/livedown/-/livedown-1.0.8.tgz
+41 silly lockFile 55c10499--org-livedown-livedown-1-0-8-tgz https://registry.npmjs.org/livedown/-/livedown-1.0.8.tgz
+42 silly lockFile d1f17d35-livedown-1-0-8 livedown@1.0.8
+43 silly lockFile d1f17d35-livedown-1-0-8 livedown@1.0.8
+44 silly lockFile 1bf2ba60-livedown livedown@
+45 silly lockFile 1bf2ba60-livedown livedown@
+46 silly resolved [ { name: 'livedown',
+46 silly resolved     version: '1.0.8',
+46 silly resolved     description: 'Live Markdown previews for your favourite editor.',
+46 silly resolved     main: 'server.js',
+46 silly resolved     author: { name: 'Hrvoje Simic', email: 'shime.ferovac@gmail.com' },
+46 silly resolved     license: 'MIT',
+46 silly resolved     dependencies:
+46 silly resolved      { 'body-parser': '^1.9.2',
+46 silly resolved        chokidar: '^0.12.1',
+46 silly resolved        express: '^4.10.2',
+46 silly resolved        marked: '^0.3.2',
+46 silly resolved        minimist: '^1.1.0',
+46 silly resolved        request: '^2.48.0',
+46 silly resolved        'socket.io': '1.3.0' },
+46 silly resolved     devDependencies: { 'expect.js': '^0.3.1', mocha: '^2.0.1', zombie: '^2.1.1' },
+46 silly resolved     bin: { livedown: 'bin/livedown' },
+46 silly resolved     scripts:
+46 silly resolved      { test: 'node ./node_modules/.bin/mocha',
+46 silly resolved        start: 'node server.js' },
+46 silly resolved     repository: { type: 'git', url: 'https://github.com/shime/livedown.git' },
+46 silly resolved     keywords: [ 'markdown', 'preview', 'live', 'realtime' ],
+46 silly resolved     bugs: { url: 'https://github.com/shime/livedown/issues' },
+46 silly resolved     homepage: 'https://github.com/shime/livedown',
+46 silly resolved     gitHead: '8dcb159d87482d2d7489c9fe1aec00fbd9bace40',
+46 silly resolved     _id: 'livedown@1.0.8',
+46 silly resolved     _shasum: '811c08413db1ecaf38d6ac1767f141fe1af37739',
+46 silly resolved     _from: 'livedown@',
+46 silly resolved     _npmVersion: '1.4.28',
+46 silly resolved     _npmUser: { name: 'shime', email: 'shime.ferovac@gmail.com' },
+46 silly resolved     maintainers: [ [Object] ],
+46 silly resolved     dist:
+46 silly resolved      { shasum: '811c08413db1ecaf38d6ac1767f141fe1af37739',
+46 silly resolved        tarball: 'http://registry.npmjs.org/livedown/-/livedown-1.0.8.tgz' },
+46 silly resolved     directories: {},
+46 silly resolved     _resolved: 'https://registry.npmjs.org/livedown/-/livedown-1.0.8.tgz' } ]
+47 info install livedown@1.0.8 into /usr/local/lib
+48 info installOne livedown@1.0.8
+49 verbose lib/node_modules/livedown unbuild
+50 verbose tar unpack /Users/dain/.npm/livedown/1.0.8/package.tgz
+51 silly lockFile 05d0a9a4--local-lib-node-modules-livedown tar:///usr/local/lib/node_modules/livedown
+52 verbose lock tar:///usr/local/lib/node_modules/livedown /Users/dain/.npm/05d0a9a4--local-lib-node-modules-livedown.lock
+53 silly lockFile 831c0f8b-n-npm-livedown-1-0-8-package-tgz tar:///Users/dain/.npm/livedown/1.0.8/package.tgz
+54 verbose lock tar:///Users/dain/.npm/livedown/1.0.8/package.tgz /Users/dain/.npm/831c0f8b-n-npm-livedown-1-0-8-package-tgz.lock
+55 silly gunzTarPerm modes [ '755', '644' ]
+56 error Error: EACCES, mkdir '/usr/local/lib/node_modules/livedown'
+56 error  { [Error: EACCES, mkdir '/usr/local/lib/node_modules/livedown']
+56 error   errno: 3,
+56 error   code: 'EACCES',
+56 error   path: '/usr/local/lib/node_modules/livedown',
+56 error   fstream_type: 'Directory',
+56 error   fstream_path: '/usr/local/lib/node_modules/livedown',
+56 error   fstream_class: 'DirWriter',
+56 error   fstream_stack:
+56 error    [ '/usr/local/lib/node_modules/npm/node_modules/fstream/lib/dir-writer.js:36:23',
+56 error      '/usr/local/lib/node_modules/npm/node_modules/mkdirp/index.js:46:53',
+56 error      'Object.oncomplete (fs.js:108:15)' ] }
+57 error Please try running this command again as root/Administrator.
+58 error System Darwin 14.3.0
+59 error command "node" "/usr/local/bin/npm" "install" "-g" "livedown"
+60 error cwd /Users/dain/Development/wolfpub_api_elixir
+61 error node -v v0.10.36
+62 error npm -v 1.4.28
+63 error path /usr/local/lib/node_modules/livedown
+64 error fstream_path /usr/local/lib/node_modules/livedown
+65 error fstream_type Directory
+66 error fstream_class DirWriter
+67 error code EACCES
+68 error errno 3
+69 error stack Error: EACCES, mkdir '/usr/local/lib/node_modules/livedown'
+70 error fstream_stack /usr/local/lib/node_modules/npm/node_modules/fstream/lib/dir-writer.js:36:23
+70 error fstream_stack /usr/local/lib/node_modules/npm/node_modules/mkdirp/index.js:46:53
+70 error fstream_stack Object.oncomplete (fs.js:108:15)
+71 verbose exit [ 3, true ]
