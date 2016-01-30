@@ -1,5 +1,7 @@
 # ElixirApi
 
+[![Join the chat at https://gitter.im/dainmiller/elixir-api](https://badges.gitter.im/dainmiller/elixir-api.svg)](https://gitter.im/dainmiller/elixir-api?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 API built in Elixir.
 
 Attempting to harness the Erlang VM for performance optimizations.
